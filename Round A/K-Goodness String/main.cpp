@@ -1,8 +1,9 @@
-#include<bits/tdc+.h>
+#include<iostream>
 int main() {
 	using namespace std;
 	std:ios_base::sync_with_stdio(false), cin.tie(nullptr);
-	for (int case_num = 1; case_num <= cin >>T; case_num ++) 
+	int T; cin >> T;
+	for (int case_num = 1; case_num <= T; case_num ++) 
 	{
 		int N, K; cin >> N >> K;
 		string S; cin >> S;
