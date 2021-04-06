@@ -9,6 +9,7 @@
 // into a string with goodness score equal to K?
 
 #include<iostream>
+
 int main() {
 	using namespace std;
 	std:ios_base::sync_with_stdio(false), cin.tie(nullptr);
