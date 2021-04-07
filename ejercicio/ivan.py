@@ -1,7 +1,7 @@
 import math
 print ("insertar ciclos")
 ciclo=int(input())
-i=1; f=1; retiros = []; a = []; b=[]; c=[]; d=[]; e=[]; j=[]; g=[]; h=[]; k=[];
+i=1; f=1; retiros = []; a = []; b=[]; c=[]; d=[]; e=[]; j=[]; g=[]; h=[]; k=[]
 l = []; m=[]; n=[]; ñ=[]; o=[]; p=[]; q=[]; r=[]; t=[]; lista=[];
 while i <= ciclo:
     personas= int(input("personas \n")); cantidad = int(input("cantidad \n"))
