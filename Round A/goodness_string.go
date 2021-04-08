@@ -18,7 +18,14 @@ func main() {
 	var casos int
 	fmt.Scanf("%d", &casos)
 	for i := 0; casos < i; i++ {
-		var cantidad_cajero int
-		fmt.Scanf("%d", &cantidad_cajero)
+		var cantidad_usuarios, maxima_cantidad int
+		fmt.Scanf("%d %d", &cantidad_usuarios, &maxima_cantidad)
+		var cantidades []int
+		fmt.Scanf("%d", &cantidades)
+		dict := make(map[int]int)
+		for _, num := range cantidades {
+			dict[num] = dict[num] + 1
+		}
+		fmt.Println(dict)
 	}
 }
